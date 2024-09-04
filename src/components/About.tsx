@@ -48,14 +48,14 @@ const About: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <p className="text-lg mb-6 text-gray-300">
-              As a General Engineering student at NYU Abu Dhabi with a focus on Robotics and Artificial Intelligence, I'm passionate about pushing the boundaries of technology and innovation.
-            </p>
-            <p className="text-lg mb-6 text-gray-300">
-              My journey has taken me from developing data pipelines at Tata Consultancy Services to researching image-to-image translation using GANs at NYU's Multimedia and Visual Computing Lab.
-            </p>
-            <p className="text-lg mb-6 text-gray-300">
-              Beyond engineering, I'm deeply interested in UI/UX design, 3D modeling, and music production, allowing me to bring a unique creative perspective to my technical projects.
-            </p>
+  As a General Engineering student at NYU Abu Dhabi with a focus on Robotics and Artificial Intelligence, I&apos;m passionate about pushing the boundaries of technology and innovation.
+</p>
+<p className="text-lg mb-6 text-gray-300">
+  My journey has taken me from developing data pipelines at Tata Consultancy Services to researching image-to-image translation using GANs at NYU&apos;s Multimedia and Visual Computing Lab.
+</p>
+<p className="text-lg mb-6 text-gray-300">
+  Beyond engineering, I&apos;m deeply interested in UI/UX design, 3D modeling, and music production, allowing me to bring a unique creative perspective to my technical projects.
+</p>
             <div className="space-y-4">
               {skills.map((skillSet, index) => (
                 <motion.div key={skillSet.category} className="bg-gray-800 p-4 rounded-lg">
